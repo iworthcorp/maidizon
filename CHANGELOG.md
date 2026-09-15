@@ -15,3 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contact form with configurable POST endpoint via `NEXT_PUBLIC_FORM_ENDPOINT`.
 - Environment variable configuration for site URL, booking link, and form endpoint (`.env.example`).
 - Project documentation in `README.md` covering setup, environment variables, content editing, and deployment.
+
+### Changed
+
+- 2026-09-15: `siteUrl` in `app/layout.tsx` now falls back to the default site URL when `NEXT_PUBLIC_SITE_URL` is an empty string, not just when it's unset.
