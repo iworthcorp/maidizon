@@ -16,17 +16,17 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-navy-dark">
+    <footer className="bg-mist">
       <Container className="py-16">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <Link
               href="/"
-              className="font-display text-xl font-bold tracking-[0.15em] text-offwhite"
+              className="font-display text-xl font-bold tracking-[0.15em] text-navy-dark"
             >
               MAI <span className="text-gold">DIZON</span>
             </Link>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-offwhite/60">
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-charcoal/60">
               {siteConfig.tagline}
             </p>
             <div className="mt-6 flex gap-3">
@@ -37,7 +37,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="flex h-10 w-10 items-center justify-center rounded-sm border border-offwhite/15 text-offwhite/70 transition-colors hover:border-gold hover:text-gold"
+                  className="flex h-10 w-10 items-center justify-center rounded-sm border border-navy/15 text-charcoal/70 transition-colors hover:border-gold hover:text-gold"
                 >
                   <Icon size={16} />
                 </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-offwhite/70 hover:text-gold"
+                    className="text-sm text-charcoal/70 hover:text-gold"
                   >
                     {link.label}
                   </Link>
@@ -67,14 +67,14 @@ export default function Footer() {
             <p className="font-display text-xs font-semibold uppercase tracking-widest text-gold">
               Contact
             </p>
-            <ul className="mt-4 space-y-2.5 text-sm text-offwhite/70">
+            <ul className="mt-4 space-y-2.5 text-sm text-charcoal/70">
               <li>{siteConfig.email}</li>
               <li>{siteConfig.location}</li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-4 border-t border-offwhite/10 pt-8 text-sm text-offwhite/50 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-14 flex flex-col gap-4 border-t border-navy/10 pt-8 text-sm text-charcoal/50 sm:flex-row sm:items-center sm:justify-between">
           <p>© {year} Mai Dizon. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-gold">

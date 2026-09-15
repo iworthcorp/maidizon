@@ -9,7 +9,7 @@ export default function EventGraphic({
 }) {
   return (
     <div
-      className={`relative w-full overflow-hidden rounded-sm bg-gradient-to-br from-navy to-navy-dark ${className}`}
+      className={`relative w-full overflow-hidden rounded-sm bg-gradient-to-br from-mist to-gold-light/40 ${className}`}
       aria-hidden="true"
     >
       <svg
@@ -18,8 +18,8 @@ export default function EventGraphic({
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <line x1="0" y1="240" x2="220" y2="0" stroke="#c6a15b" strokeWidth="1" />
-        <line x1="120" y1="240" x2="400" y2="40" stroke="#f7f4ee" strokeOpacity="0.15" strokeWidth="1" />
+        <line x1="0" y1="240" x2="220" y2="0" stroke="#8b6fc9" strokeWidth="1" />
+        <line x1="120" y1="240" x2="400" y2="40" stroke="#5c4d7a" strokeOpacity="0.15" strokeWidth="1" />
       </svg>
       <div className="shine-sweep" aria-hidden="true" />
       <div className="absolute inset-0 flex items-center justify-center">

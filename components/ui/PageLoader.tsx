@@ -19,7 +19,7 @@ export default function PageLoader() {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-          className="fixed inset-0 z-[200] flex items-center justify-center bg-navy-dark"
+          className="fixed inset-0 z-[200] flex items-center justify-center bg-offwhite"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.92 }}
@@ -27,7 +27,7 @@ export default function PageLoader() {
             transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-col items-center gap-4"
           >
-            <span className="font-display text-2xl font-bold tracking-[0.3em] text-offwhite">
+            <span className="font-display text-2xl font-bold tracking-[0.3em] text-navy-dark">
               MAI <span className="text-gold">DIZON</span>
             </span>
             <motion.span

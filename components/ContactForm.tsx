@@ -175,7 +175,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-navy-dark px-7 py-3.5 font-display text-sm font-semibold uppercase tracking-wide text-offwhite transition-colors hover:bg-gold hover:text-navy-dark disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-sm bg-navy-dark px-7 py-3.5 font-display text-sm font-semibold uppercase tracking-wide text-white transition-colors hover:bg-gold hover:text-white disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" && <Loader2 className="animate-spin" size={16} />}
         {status === "loading" ? "Sending..." : "Send Message"}

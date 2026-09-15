@@ -5,13 +5,13 @@ import { siteConfig } from "@/lib/data";
 
 export default function BookingCTA() {
   return (
-    <section id="book" className="relative overflow-hidden bg-navy-dark py-24 sm:py-28">
+    <section id="book" className="relative overflow-hidden bg-mist py-24 sm:py-28">
       <div
-        className="pointer-events-none absolute inset-0 opacity-[0.08]"
+        className="pointer-events-none absolute inset-0 opacity-[0.06]"
         aria-hidden="true"
         style={{
           backgroundImage:
-            "linear-gradient(#c6a15b 1px, transparent 1px), linear-gradient(90deg, #c6a15b 1px, transparent 1px)",
+            "linear-gradient(#8b6fc9 1px, transparent 1px), linear-gradient(90deg, #8b6fc9 1px, transparent 1px)",
           backgroundSize: "56px 56px",
         }}
       />
@@ -20,20 +20,20 @@ export default function BookingCTA() {
         aria-hidden="true"
       />
       <div
-        className="animate-float-reverse pointer-events-none absolute -top-24 right-1/4 h-72 w-72 rounded-full bg-gold/10 blur-3xl"
+        className="animate-float-reverse pointer-events-none absolute -top-24 right-1/4 h-72 w-72 rounded-full bg-gold/15 blur-3xl"
         aria-hidden="true"
       />
       <div
-        className="animate-float pointer-events-none absolute -bottom-24 left-1/4 h-64 w-64 rounded-full bg-navy/50 blur-3xl"
+        className="animate-float pointer-events-none absolute -bottom-24 left-1/4 h-64 w-64 rounded-full bg-navy/20 blur-3xl"
         aria-hidden="true"
       />
 
       <Container className="relative text-center">
         <Reveal className="mx-auto max-w-2xl">
-          <h2 className="font-display text-3xl font-bold tracking-tight text-offwhite sm:text-4xl lg:text-5xl">
+          <h2 className="font-display text-3xl font-bold tracking-tight text-navy-dark sm:text-4xl lg:text-5xl">
             Ready to Scale Your Business?
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-offwhite/75">
+          <p className="mt-6 text-lg leading-relaxed text-charcoal/75">
             Let&apos;s talk about where your business stands, where you want
             it to go, and the strategy that will get you there — with
             clarity, structure, and accountability.

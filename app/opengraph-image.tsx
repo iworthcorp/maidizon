@@ -14,7 +14,7 @@ export default function Image() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(135deg, #0b1c30 0%, #071220 60%, #15171c 100%)",
+          background: "linear-gradient(135deg, #5c4d7a 0%, #473c60 60%, #4a3f5c 100%)",
           fontFamily: "Arial, Helvetica, sans-serif",
         }}
       >
@@ -23,7 +23,7 @@ export default function Image() {
             display: "flex",
             fontSize: 28,
             letterSpacing: 8,
-            color: "#c6a15b",
+            color: "#8b6fc9",
             fontWeight: 700,
             marginBottom: 24,
           }}
@@ -35,7 +35,7 @@ export default function Image() {
             display: "flex",
             fontSize: 88,
             fontWeight: 700,
-            color: "#f7f4ee",
+            color: "#f9f6fd",
             letterSpacing: 4,
           }}
         >
@@ -47,7 +47,7 @@ export default function Image() {
             marginTop: 20,
             width: 160,
             height: 4,
-            background: "#c6a15b",
+            background: "#8b6fc9",
           }}
         />
       </div>

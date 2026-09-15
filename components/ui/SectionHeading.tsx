@@ -17,18 +17,10 @@ export default function SectionHeading({
     <Reveal
       className={`max-w-3xl ${align === "center" ? "mx-auto text-center" : ""}`}
     >
-      <p
-        className={`font-display text-sm font-semibold tracking-[0.25em] uppercase ${
-          light ? "text-gold-light" : "text-gold"
-        }`}
-      >
+      <p className="font-display text-sm font-semibold tracking-[0.25em] uppercase text-gold">
         {eyebrow}
       </p>
-      <HeadingTag
-        className={`mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight ${
-          light ? "text-offwhite" : "text-navy-dark"
-        }`}
-      >
+      <HeadingTag className="mt-4 font-display text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight text-navy-dark">
         {heading}
       </HeadingTag>
     </Reveal>

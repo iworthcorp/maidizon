@@ -12,7 +12,7 @@ export default function About() {
           <Reveal className="relative mx-auto w-full max-w-md lg:mx-0">
             <PortraitPanel variant="about" />
             <div
-              className="absolute -bottom-6 -right-6 h-16 w-16 bg-gold"
+              className="absolute -bottom-6 -right-6 z-20 h-16 w-16 bg-gold"
               aria-hidden="true"
             />
           </Reveal>

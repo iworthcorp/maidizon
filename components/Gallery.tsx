@@ -43,13 +43,12 @@ export default function Gallery() {
   const active = activeIndex !== null ? filtered[activeIndex] : null;
 
   return (
-    <section id="gallery" className="bg-charcoal py-24 sm:py-32">
+    <section id="gallery" className="bg-mist py-24 sm:py-32">
       <Container>
         <SectionHeading
           as="h1"
           eyebrow="Gallery"
           heading="Moments From the Journey"
-          light
         />
 
         <Reveal delay={0.1} className="mt-10 flex flex-wrap gap-2">
@@ -60,8 +59,8 @@ export default function Gallery() {
               onClick={() => setFilter(cat as GalleryCategory | "All")}
               className={`rounded-sm border px-4 py-2 font-display text-xs font-semibold uppercase tracking-wide transition-colors ${
                 filter === cat
-                  ? "border-gold bg-gold text-navy-dark"
-                  : "border-offwhite/15 text-offwhite/70 hover:border-gold/60 hover:text-gold"
+                  ? "border-gold bg-gold text-white"
+                  : "border-navy/15 text-charcoal/70 hover:border-gold/60 hover:text-gold"
               }`}
             >
               {cat}
@@ -78,7 +77,7 @@ export default function Gallery() {
               className="group block w-full break-inside-avoid focus-visible:outline-2 focus-visible:outline-gold"
               aria-label={`Open image: ${img.caption}`}
             >
-              <div className="overflow-hidden rounded-sm transition-transform duration-300 group-hover:-translate-y-1">
+              <div className="overflow-hidden rounded-sm shadow-[0_16px_32px_-12px_rgba(92,77,122,0.3)] transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_24px_40px_-12px_rgba(92,77,122,0.45)]">
                 <GalleryTile category={img.category} tall={img.tall} />
               </div>
             </button>

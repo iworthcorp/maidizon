@@ -14,9 +14,9 @@ const base =
 
 const variants: Record<string, string> = {
   primary:
-    "bg-gold text-navy-dark hover:bg-gold-light shadow-[0_4px_20px_-4px_rgba(198,161,91,0.5)] hover:shadow-[0_6px_24px_-4px_rgba(198,161,91,0.65)]",
+    "bg-gold text-white hover:bg-gold-light shadow-[0_4px_20px_-4px_rgba(184,135,74,0.4)] hover:shadow-[0_6px_24px_-4px_rgba(184,135,74,0.55)]",
   outline:
-    "border border-offwhite/30 text-offwhite hover:border-gold hover:text-gold",
+    "border border-navy/25 text-navy-dark hover:border-gold hover:text-gold",
   ghost: "text-navy-dark hover:text-gold",
 };
 
